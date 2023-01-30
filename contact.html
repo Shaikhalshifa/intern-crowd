@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+ {
+  box-sizing: border-box;
+}	
+.row {
+  display: flex;
+}
+
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+h1 {
+ text-align:center
+}
+h3{
+	text-align: center;
+}
+h4{
+	text-align: center;
+}
+h5{
+	text-align: center;
+}
+h2{
+	text-align: center;
+
+}
+div.column {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+div.row {
+  text-align: left;
+  padding: 10px 20px;
+}
+</style>	
+</head>
+<body>
+	<table border="0" width="1500" bgcolor="silver" height="8%">
+		<tr>
+		<th width="20%"><font color="white" size="4"><a href="#"> home </a></font></th>
+		<th width="20%"><font color="white" size="4"><a href="internship.html">internship </a></font></th>
+		<th width="20%"><font color="white" size="4"><a href="contact.html">contact</a></font></th>
+		<th width="20%"><font color="white" size="4"><a href="about.html">about us</a></font></th>
+		</tr>
+	</table>
+	<h1>contact us</h1>
+	<form action="action_page.php">
+  <div class="container">
+    <h2>Register</h2>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+</form>
+		
+
+</body>
+</html>
